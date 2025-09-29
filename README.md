@@ -18,10 +18,13 @@ A **Simple WebAssembly (WASM) stress and benchmarking tool** built in Rust.
 ## Build
 
 ### Add WASI Preview 1
+```bash
 rustup target add wasm32-wasip1
-
+```
 ### Add WASI Preview 2
+```bash
 rustup target add wasm32-wasip2
+```
 
 ### WASI Preview 1
 ```bash
